@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktai</title>
+    <link rel="stylesheet" href="kontaktai%20style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="brand">Vassi Foto</a>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="#">Galerija</a>
+        <a href="index.html">Apie</a>
+        <a href="Kontaktai.html">Kontaktai</a>
+      </div>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+
+    <alert messages start></alert>
+    <div class="alert-success">
+      <span>Message Sent! Thank you for contacting us.</span>
+    </div>
+    <div class="alert-error">
+      <span>Something went wrong! Please try again.</span>
+    </div>
+    <div class="contact-section">
+      <div class="contact-info">
+        <div><i class="fas fa-map-marker-alt"></i>Kauno rajonas,Lietuva</div>
+        <div><i class="fas fa-envelope"></i>Paulius.vas5@gmail.com</div>
+        <div><i class="fas fa-phone"></i>+370</div>
+      </div>
+      <div class="contact-form">
+        <h2>Parašyk mum!</h2>
+        <form class="contact" action="" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Tavo Vardas" required>
+          <input type="email" name="email" class="text-box" placeholder="Tavo Email" required>
+          <textarea name="message" rows="5" placeholder="Tavo žinutė" required></textarea>
+          <input type="submit" name="submit" class="send-btn" value="Siųsti">
+        </form>
+      </div>
+    </div>
+    <!--contact section end-->
+
+  </body>
+</html>
